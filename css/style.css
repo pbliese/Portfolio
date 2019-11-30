@@ -1,0 +1,16 @@
+/*style.css*/
+h1 {
+    color: #ff0000;
+    background-color: #27d2f0;
+    font-size: 50px;
+}
+
+p {
+    color: #1a0be4;
+    font-size: 24px;
+}
+
+div.col-md-6.col-xs-12 {
+    padding:10px;
+}
+
