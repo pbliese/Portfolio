@@ -1,8 +1,9 @@
 /*Port_style.css*/
 h1 {
     color: #ff0000;
-    background-color: #27d2f0;
+    background-color: #000000;
     font-size: 50px;
+    text-align: center;
 }
 
 nav {
@@ -30,10 +31,16 @@ nav a:hover {
   }
   
 p {
-    color: #1a0be4;
+    color: #ffffff;
     font-size: 24px;
+    text-align: center;
 }
 
-div.col-md-6.col-xs-12 {
+div {
     padding:10px;
+    color: #ffffff;
+}
+
+body {
+    background-color: #000000;
 }
