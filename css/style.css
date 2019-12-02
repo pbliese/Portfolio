@@ -6,6 +6,13 @@ h1 {
     text-align: center;
 }
 
+p1 {
+    color: #ff0000;
+    background-color: #000000;
+    font-size: 50px;
+    text-align: center;
+}
+
 nav {
     background-color: #ff0000;
     overflow: hidden;
@@ -34,14 +41,46 @@ p {
     color: #ffffff;
     font-size: 24px;
     text-align: center;
+    padding: 10px;
 }
 
 div {
     padding:10px;
     color: #ffffff;
+    font-size: 24px;
     text-align: center;
 }
 
 body {
     background-color: #000000;
+}
+
+@media screen and (min-width: 900px) {
+    p {
+        font-size: 24px;
+    }
+
+    div {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    p {
+        font-size: 18px;
+    }
+
+    div {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    p {
+        font-size: 14px;
+    }
+
+    div {
+        font-size: 16px;
+    }
 }
