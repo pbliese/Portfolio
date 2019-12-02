@@ -1,4 +1,6 @@
 /*style.css*/
+
+/* header to stand out from rest of page*/
 h1 {
     color: #ff0000;
     background-color: #000000;
@@ -6,13 +8,7 @@ h1 {
     text-align: center;
 }
 
-p1 {
-    color: #ffffff;
-    background-color: #000000;
-    font-size: 20px;
-    text-align: right;
-}
-
+/*Style the navigation bar, horizontal*/
 nav {
     background-color: #ff0000;
     overflow: hidden;
@@ -36,7 +32,8 @@ nav a:hover {
     background-color: #dddddd;
     color: #000000;
   }
-  
+
+/*basic styling for page content. Keep things consistent, somewhat minimalistic*/
 p {
     color: #ffffff;
     font-size: 24px;
@@ -51,10 +48,12 @@ div {
     text-align: center;
 }
 
+/*pseudo-darkmode, helps colors pop and subdues background*/
 body {
     background-color: #000000;
 }
 
+/* Responsive css for text size, essentially an if-then statement */
 @media screen and (min-width: 900px) {
     p {
         font-size: 24px;
