@@ -65,6 +65,10 @@ body {
     div {
         font-size: 16px;
     }
+
+    h1 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 499px) {
@@ -74,5 +78,9 @@ body {
 
     div {
         font-size: 16px;
+    }
+
+    h1 {
+        font-size: 25px;
     }
 }
